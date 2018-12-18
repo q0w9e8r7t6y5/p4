@@ -23,4 +23,5 @@ Route::get('order', 'OrderController@index');
 // order validation and store in database
 Route::get('store', 'OrderController@store');
 
+Route::get('orderlist', 'OrderListController@index');
 

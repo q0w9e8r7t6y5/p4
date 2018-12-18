@@ -14,6 +14,10 @@ class Customer extends Model
        return $this->first_name.' '.$this->last_name;
    }
 
+   public function orders() {
+       return $this->belongsToMany('App\Order')->withTimestamps;
+   }
+
      public static function getForDropdown() {
         return Customer::orderBy('last_name')->select(['id', 'first_name', 'last_name'])->get();
     }
