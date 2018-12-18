@@ -12,7 +12,7 @@ class OrderListController extends Controller
     public function index()
     {
 
-        $users = Order::orderBy('id')->get();
+        $users = Order::orderby('customer_id')->get();
 
         dump($users->ToArray());
 
