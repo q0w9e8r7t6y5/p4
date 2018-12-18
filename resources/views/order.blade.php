@@ -7,7 +7,16 @@
     </h6>
 
     <br>
+
     <form method='GET 'action='store'>
+
+        <select name="customer_id">
+            @foreach($users as $user)
+                <option value="{{ $user->id }}">{{ $user->first_name. " " .$user->last_name }}</option>
+            @endforeach
+        </select>
+
+
         <fieldset class='type'>
             <h5>Type</h5>
             <input type='radio'

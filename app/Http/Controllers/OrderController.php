@@ -3,11 +3,23 @@
 namespace App\Http\Controllers;
 
 use App\Order;
+use App\Customer;
+
 
 class OrderController extends Controller
 {
     public function index() {
-        return view('order');
+
+        $users = Customer::orderBy('last_name')->select('first_name', "last_name", 'id')->get();
+
+        dump($users->toArray());
+
+        return view('order')->with([
+            'users' => $users
+        ]);
+
+
+        // return view('order');
     }
 
     public function store()
@@ -48,10 +60,13 @@ class OrderController extends Controller
 
         $order->order_number = $rand;
 
+        $order->customer_id = request()->get('name');
+
+//        $order = Customer::find($request->id);
+
         $order->save();
 
         return view('order');
     }
 
 }
-
