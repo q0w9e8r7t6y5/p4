@@ -6,9 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Customer extends Model
 {
-     public function books() {
-        return $this->hasMany('App\Customer');
-    }
 
     public function getFullName() {
        return $this->first_name.' '.$this->last_name;
