@@ -25,6 +25,8 @@ class OrderController extends Controller
     public function store()
 
     {
+        $users = Customer::orderBy('last_name')->select('first_name', "last_name", 'id')->get();
+
         $order = new Order();
 
         $order->type = request()->get('type');
@@ -60,13 +62,15 @@ class OrderController extends Controller
 
         $order->order_number = $rand;
 
-        $order->customer_id = request()->get('name');
+        $order->customer_id = request()->get('customer_id');
 
 //        $order = Customer::find($request->id);
 
         $order->save();
 
-        return view('order');
+        return view('order')->with([
+            'users' => $users
+        ]);
     }
 
 }
