@@ -23,7 +23,7 @@ class CreateOrdersTable extends Migration
             $table->string('veggies');
             $table->string('toppings');
             // make this nullable!
-            $table->string('special_note')->nullable()->change();
+            $table->string('special_note');
             $table->string('price');
         });
     }

@@ -6,8 +6,11 @@ use App\Order;
 
 class OrderController extends Controller
 {
+    public function index() {
+        return view('order');
+    }
 
-    public function index()
+    public function store()
 
     {
         $order = new Order();
@@ -39,6 +42,11 @@ class OrderController extends Controller
         }
 
         $order->price = $total_price;
+
+        $randomString = strtoupper(str_random(5));
+        $rand =  "SY".$randomString;
+
+        $order->order_number = $rand;
 
         $order->save();
 

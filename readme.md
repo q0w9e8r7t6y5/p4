@@ -10,7 +10,7 @@ Primary tables:
   + `authors`
   + `tags`
   + `users`
-  
+
 Pivot table(s):
   + `book_tag`
 
@@ -23,16 +23,16 @@ __Create__
   + Fill out form
   + Click *Add new book*
   + Observe confirmation message
-  
+
 __Read__
   + Visit <http://p4.foobooks.me/books> see a listing of all books
-  
+
 __Update__
   + Visit <http://p4.foobooks.me/books>; choose the Edit button next to one of the books
   + Make some edit to form
   + Click *Save changes*
   + Observe confirmation message
-  
+
 __Delete__
   + Visit <http://p4.foobooks.me/books>; choose the Delete button next to one of the books
   + Confirm deletion
@@ -49,3 +49,9 @@ __Delete__
 
 
 https://stackoverflow.com/questions/38129346/laravel-5-2-getting-form-fields-in-controller-method
+
+https://laravel.com/docs/5.7/migrations
+
+https://stackoverflow.com/questions/38359833/laravel-5-2-generate-random-number-and-save-to-database
+
+http://php.net/manual/en/function.rand.php

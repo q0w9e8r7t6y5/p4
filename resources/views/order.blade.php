@@ -7,7 +7,7 @@
     </h6>
 
     <br>
-    <form method='GET'>
+    <form method='GET 'action='store'>
         <fieldset class='type'>
             <h5>Type</h5>
             <input type='radio'
