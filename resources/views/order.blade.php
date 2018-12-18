@@ -10,6 +10,7 @@
 
     <form method='GET 'action='store'>
 
+        USERNAME
         <select name="customer_id">
             @foreach($users as $user)
                 <option value="{{ $user->id }}">{{ $user->first_name. " " .$user->last_name }}</option>
