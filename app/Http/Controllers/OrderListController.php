@@ -12,11 +12,15 @@ class OrderListController extends Controller
     public function index()
     {
 
-        $users = Order::orderby('customer_id')->get();
+        $orders = Order::orderby('created_at', 'desc')->get();
 
-        dump($users->ToArray());
+        dump($orders->ToArray());
 
-        return view('orderlist');
+        return view('orderlist')->with([
+            'orders' => $orders
+        ]);
     }
+
+
 
 }
