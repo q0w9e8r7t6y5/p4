@@ -69,7 +69,7 @@ class OrderController extends Controller
         $order->save();
 
     // pivot table not working
-//        $order->orders()->sync(request()->get('customer_id'));
+        $order->customers()->sync([request()->get('customer_id')]);
 
         return view('order')->with([
             'users' => $users

@@ -12,7 +12,7 @@ class Customer extends Model
    }
 
    public function orders() {
-       return $this->belongsToMany('App\Order')->withTimestamps;
+       return $this->belongsToMany('App\Order')->withTimestamps();
    }
 
      public static function getForDropdown() {

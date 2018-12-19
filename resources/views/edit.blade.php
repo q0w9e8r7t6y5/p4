@@ -2,11 +2,18 @@
 
 @section('content')
 
+    <style>
+        table, th, td {
+            border: 2px solid black;
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+
+
     <section id='allUsers'>
-        <h2>User Editing System</h2>
-        @foreach($users as $user)
+        <h4>User Editing System</h4>
             @include('users')
-        @endforeach
     </section>
 
 @include('modules.homebar')

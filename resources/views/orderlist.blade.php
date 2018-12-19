@@ -38,7 +38,6 @@
                     <td>{{ $order->toppings }}</td>
                     <td>{{ $order->special_note }}</td>
                     <td>{{ $order->price }}</td>
-                    <td><button class="delete-btn">Delete</button></td>
                 </tr>
                 @endforeach
             </table>
