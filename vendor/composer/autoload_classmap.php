@@ -88,6 +88,8 @@ return array(
     'Cron\\HoursField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/HoursField.php',
     'Cron\\MinutesField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/MinutesField.php',
     'Cron\\MonthField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/MonthField.php',
+    'CustomerOrderSeeder' => $baseDir . '/database/seeds/CustomerOrderSeeder.php',
+    'CustomerOrderTableSeeder' => $baseDir . '/database/seeds/CustomerOrderTableSeeder.php',
     'CustomersTableSeeder' => $baseDir . '/database/seeds/CustomersTableSeeder.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
     'DebugBar\\Bridge\\CacheCacheCollector' => $vendorDir . '/maximebf/debugbar/src/DebugBar/Bridge/CacheCacheCollector.php',
