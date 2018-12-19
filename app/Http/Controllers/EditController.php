@@ -67,4 +67,28 @@ class EditController extends Controller
 
         return redirect('/edit/'.$id.'');
     }
+
+    public function delete($id)
+    {
+        $user = Customer::find($id);
+
+        dump($user);
+
+        return view('delete')->with([
+            'user' => $user,
+        ]);
+    }
+    /*
+    * Actually deletes the book
+    * DELETE /books/{id}/delete
+    */
+    public function destroy($id)
+    {
+        $user = Customer::find($id);
+
+        dump($user);
+//        $user->orders()->detach();
+//        $user->delete();
+        return redirect('edit');
+    }
 }

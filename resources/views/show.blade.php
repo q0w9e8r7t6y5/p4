@@ -23,6 +23,8 @@
         <ul class='userActions'>
 
           <a href='{{ $user->id }}/edit'><i class="fas fa-pencil-alt"></i> Edit</a>
+          <a href='{{ $user->id }}/delete'><i class="fas fa-trash-alt"></i> Delete</a>
+
         </ul>
     </div>
 
