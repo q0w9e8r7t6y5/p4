@@ -29,16 +29,18 @@ Route::get('edit', 'EditController@index');
 Route::get('/edit/{id}', 'EditController@show');
 
 
-# Show the form to edit a specific book
+# Show the form to edit a specific user
 Route::get('/edit/{id}/edit', 'EditController@edit');
 
-# Process the form to edit a specific book
+# Process the form to edit a specific user
 Route::put('/edit/{id}', 'EditController@update');
 
 # DELETE
-# Show the page to confirm deletion of a book
+# Show the page to confirm deletion of a user
 Route::get('/edit/{id}/delete', 'EditController@delete');
 //
-//# Process the deletion of a book
-//Route::delete('/edit/{id}', 'EditController@destroy');
+
+# NOT WORKING
+# Process the deletion of a user
+Route::delete('/edit/{id}', 'EditController@destroy');
 

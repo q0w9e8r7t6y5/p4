@@ -77,16 +77,16 @@ class EditController extends Controller
         ]);
     }
     /*
-    * Actually deletes the book
-    * DELETE /books/{id}/delete
+    * Actually deletes the user
     */
+
     public function destroy($id)
     {
         $user = Customer::find($id);
 
-        dump($user);
-//        $user->orders()->detach();
-//        $user->delete();
+//        dump($user);
+        $user->orders()->detach();
+        $user->delete();
         return redirect('edit');
     }
 }
