@@ -24,6 +24,8 @@
     @yield('content')
 </section>
 
+</body>
+
 <footer>
     <br>
     <a href='http://github.com/q0w9e8r7t6y5/p4'>View on Github</a> |&copy; 2018
@@ -36,8 +38,7 @@
 
 {{-- JS specific to a given page/child view can be included via a stack --}}
 @stack('body')
-
-</body>
-</html>
+</div>
 
 </html>
+

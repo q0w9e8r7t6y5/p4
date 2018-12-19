@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cfca6ad-dc25-4746-813e-72c15d8de7e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +33,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="10" />
-          <entry key="Blade" value="2689" />
+          <entry key="Blade" value="2699" />
           <entry key="JSON" value="1" />
           <entry key="Markdown" value="31" />
           <entry key="PHP" value="3266" />
@@ -50,8 +48,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+                <state relative-caret-position="680">
+                  <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
                 </state>
               </provider>
             </entry>
@@ -59,8 +57,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resources/views/master.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+                <state relative-caret-position="765">
+                  <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
                 </state>
               </provider>
             </entry>
@@ -136,8 +134,8 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/EditController.php" />
         <option value="$PROJECT_DIR$/resources/views/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/master.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/modules/padding.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/master.blade.php" />
       </list>
     </option>
   </component>
@@ -235,7 +233,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-112" />
+    <option name="x" value="-85" />
     <option name="y" value="23" />
     <option name="width" value="1895" />
     <option name="height" value="1000" />
@@ -344,15 +342,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545086273642</updated>
-      <workItem from="1545086274751" duration="43865000" />
+      <workItem from="1545086274751" duration="44509000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43865000" />
+    <option name="totallyTimeSpent" value="44509000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-112" y="23" width="1895" height="1000" extended-state="0" />
+    <frame x="-85" y="23" width="1895" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -621,24 +619,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/modules/padding.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="680">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/modules/padding.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        <state relative-caret-position="765">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
