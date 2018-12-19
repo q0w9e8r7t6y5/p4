@@ -11,10 +11,9 @@
     <h6><b>Please enter your information and click submit to continue to the order page</b></h6><br>
 
     @include('modules.validationerror')
-
+    <h5>Customer Information</h5><b>* Required fields</b><br>
     <form method='get' action='form'>
         <fieldset id="$request">
-            <h5>Customer Information</h5><b>* Required fields</b><br>
 
             <label for='email'>* Email:</label>
             <input type='text' name='email' id='email' value='{{ old('email')}}test@test.com' ><br>

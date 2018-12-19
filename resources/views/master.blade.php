@@ -2,6 +2,9 @@
 
 <html lang='en'>
 
+@include('modules.padding')
+
+<div id="all">
 <head>
         <title>@yield('title')</title>
         <meta charset='utf-8'>
@@ -35,5 +38,6 @@
 @stack('body')
 
 </body>
+</html>
 
 </html>
