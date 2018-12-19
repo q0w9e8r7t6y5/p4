@@ -25,8 +25,6 @@ class EditController extends Controller
     {
         $user = Customer::find($id);
 
-        dump($user->ToArray());
-
         return view('show')->with([
             'user' => $user
         ]);
