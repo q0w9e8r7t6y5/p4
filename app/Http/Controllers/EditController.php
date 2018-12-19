@@ -80,13 +80,33 @@ class EditController extends Controller
     * Actually deletes the user
     */
 
+//    public function destroy($id)
+//    {
+//        $user = Customer::find($id);
+//
+////        dump($user);
+//        $user->orders()->detach();
+//        $user->delete();
+//        return redirect('edit');
+//    }
+
     public function destroy($id)
     {
         $user = Customer::find($id);
 
+        if($user!=null){
 //        dump($user);
-        $user->orders()->detach();
-        $user->delete();
+            $user->orders()->detach();
+
+            //delete orders
+            $orders=Order::where('customer_id',$user->id);
+            $orders->delete();
+
+            //delete user
+            $user->delete();
+
+        }
+
         return redirect('edit');
     }
 }

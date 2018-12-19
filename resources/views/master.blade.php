@@ -11,6 +11,16 @@
 </head>
 @stack('head')
 
+<style>
+    head, div {
+        padding-top: 50px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+        padding-left: 80px;
+    }
+</style>
+
+
 <body>
 <br>
 <header>
