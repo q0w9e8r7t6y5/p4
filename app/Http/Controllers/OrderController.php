@@ -68,6 +68,8 @@ class OrderController extends Controller
 
         $order->save();
 
+        $order->orders()->sync(request()->get('customer_id'));
+
         return view('order')->with([
             'users' => $users
         ]);
