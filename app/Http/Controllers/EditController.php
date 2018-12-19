@@ -14,8 +14,6 @@ class EditController extends Controller
 
         $users = Customer::orderby('created_at', 'desc')->get();
 
-        dump($users->ToArray());
-
         return view('edit')->with([
             'users' => $users
         ]);
@@ -33,8 +31,6 @@ class EditController extends Controller
     public function edit($id)
     {
         $user = Customer::find($id);
-
-        dump($user);
 
         if (!$user) {
             return redirect('/edit')->with([

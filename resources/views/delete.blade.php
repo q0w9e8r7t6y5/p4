@@ -2,7 +2,6 @@
 
 @section('title')
     Confirm deletion: {{ $user->first_name }} {{ $user->last_name }}'s User Profile
-
 @endsection
 
 @section('content')

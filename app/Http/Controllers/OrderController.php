@@ -12,14 +12,9 @@ class OrderController extends Controller
 
         $users = Customer::orderBy('last_name', 'asc')->select('first_name', "last_name", 'id')->get();
 
-        dump($users->toArray());
-
         return view('order')->with([
             'users' => $users
         ]);
-
-
-        // return view('order');
     }
 
     public function store()
@@ -35,7 +30,6 @@ class OrderController extends Controller
         $order->beans = request()->get('beans');
         $order->veggies = request()->get('veggies');
         $order->special_note = request()->get('comment');
-
 
         $toppings = request()->get('toppings');
 
@@ -64,11 +58,8 @@ class OrderController extends Controller
 
         $order->customer_id = request()->get('customer_id');
 
-//        $order = Customer::find($request->id);
-
         $order->save();
 
-    // pivot table not working
         $order->customers()->sync([request()->get('customer_id')]);
 
         return view('order')->with([

@@ -9,16 +9,6 @@
 </head>
 @stack('head')
 
-<style>
-    head, div {
-        padding-top: 50px;
-        padding-right: 30px;
-        padding-bottom: 50px;
-        padding-left: 80px;
-    }
-</style>
-
-
 <body>
 <br>
 <header>
@@ -33,7 +23,7 @@
 
 <footer>
     <br>
-    <a href='http://github.com/q0w9e8r7t6y5/p4'><i class='fab fa-github'></i> View on Github</a> |&copy; 2018
+    <a href='http://github.com/q0w9e8r7t6y5/p4'>View on Github</a> |&copy; 2018
 </footer>
 
 {{-- JS global to every page can be loaded here; jQuery included just as an example --}}

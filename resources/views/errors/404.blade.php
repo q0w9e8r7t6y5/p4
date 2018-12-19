@@ -1,5 +1,9 @@
 @extends('master')
 
+@section('title')
+    404 ERROR
+@endsection
+
 @section('content')
 
     <br>
