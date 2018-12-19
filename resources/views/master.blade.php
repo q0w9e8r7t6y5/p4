@@ -3,11 +3,9 @@
 <html lang='en'>
 
 <head>
-
-        <title>P3: Online Ordering System</title>
+        <title>@yield('title')</title>
         <meta charset='utf-8'>
         <link rel='stylesheet' href='https://bootswatch.com/4/spacelab/bootstrap.min.css' type='text/css'>
-
 </head>
 @stack('head')
 
@@ -27,7 +25,6 @@
     <a href="{{ url('') }}">
     <h2>Fast-Casual Mexican Restaurant</h2>
     </a>
-    <h5><i>Online Ordering System</i></h5>
 </header>
 
 <section>

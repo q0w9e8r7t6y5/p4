@@ -1,5 +1,9 @@
 @extends('master')
 
+@section('title')
+    Order Page
+@endsection
+
 @section('content')
 
     <h6><b>
