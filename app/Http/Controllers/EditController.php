@@ -58,12 +58,12 @@ class EditController extends Controller
             'phone' => 'required|digits:10',
         ]);
 
-//        $user = Customer::find($id);
-//        $user->first_name = $request->input('first_name');
-//        $user->last_name = $request->input('last_name');
-//        $user->email = $request->input('email');
-//        $user->phone = $request->input('phone');
-//        $user->save();
+        $user = Customer::find($id);
+        $user->first_name = $request->input('first_name');
+        $user->last_name = $request->input('last_name');
+        $user->email = $request->input('email');
+        $user->phone = $request->input('phone');
+        $user->save();
 
         return redirect('edit')->with([
             'alert' => 'Your changes were saved.'
