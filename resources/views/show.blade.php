@@ -1,13 +1,6 @@
 @extends('master')
 
-<style>
-    table, th, td {
-        border: 2px solid black;
-        text-align: center;
-        padding: 5px;
-    }
-</style>
-
+@include('modules.styling')
 
 @section('title')
     {{ $user->first_name }} {{ $user->last_name }}
@@ -45,8 +38,5 @@
     </table>
 
 </div>
-
-
-{{--@include('modules.homebar')--}}
 
 @endsection

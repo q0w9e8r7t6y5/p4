@@ -17,7 +17,7 @@
             <td>{{ $user->phone }}</td>
             <td>{{ $user->created_at }}</td>
             <td><form action="edit/{{ $user->id }}">
-                    <input type="submit" value="Edit|Delete" />
+                    <input type="submit" value="Edit & Delete" />
                 </form>
             </td>
         </tr>

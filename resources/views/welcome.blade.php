@@ -7,17 +7,7 @@
 
     <h6><b>Please enter your information and click submit to continue to the order page</b></h6><br>
 
-    @if(count($errors) > 0)
-        <div class='alert alert-danger' role='alert'>
-
-            <ul>
-                @foreach ($errors->all() as $error)
-                    <li><b>{{ $error }}</b></li>
-                @endforeach
-            </ul>
-        </div>
-
-    @endif
+    @include('modules.validationerror')
 
 
     <form method='get' action='form'>
@@ -36,7 +26,5 @@
         <br>
         <input type="submit" value="Submit">
     </form>
-
-
 
 @endsection

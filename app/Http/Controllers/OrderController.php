@@ -10,7 +10,7 @@ class OrderController extends Controller
 {
     public function index() {
 
-        $users = Customer::orderBy('last_name')->select('first_name', "last_name", 'id')->get();
+        $users = Customer::orderBy('last_name', 'asc')->select('first_name', "last_name", 'id')->get();
 
         dump($users->toArray());
 
