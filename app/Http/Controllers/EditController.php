@@ -52,8 +52,8 @@ class EditController extends Controller
     public function update(Request $request, $id)
     {
         $this->validate($request, [
-            'first_name' => 'required',
-            'last_name' => 'required',
+            'first_name' => 'required|alpha',
+            'last_name' => 'required|alpha',
             'email' => 'required|email',
             'phone' => 'required|digits:10',
         ]);
@@ -65,8 +65,6 @@ class EditController extends Controller
         $user->phone = $request->input('phone');
         $user->save();
 
-        return redirect('edit')->with([
-            'alert' => 'Your changes were saved.'
-        ]);
+        return redirect('/edit/'.$id.'');
     }
 }

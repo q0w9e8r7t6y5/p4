@@ -26,6 +26,6 @@
         </ul>
     </div>
 
-@include('modules.homebar')
+{{--@include('modules.homebar')--}}
 
 @endsection
