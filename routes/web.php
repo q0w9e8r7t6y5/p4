@@ -29,10 +29,10 @@ Route::get('edit', 'EditController@index');
 Route::get('/edit/{id}', 'EditController@show');
 
 
-//# Show the form to edit a specific book
-//Route::get('/edit/{id}/edit', 'BookController@edit');
-//
-//# Process the form to edit a specific book
-//Route::put('/edit/{id}', 'BookController@update');
+# Show the form to edit a specific book
+Route::get('/edit/{id}/edit', 'EditController@edit');
+
+# Process the form to edit a specific book
+Route::put('/edit/{id}', 'EditController@update');
 
 

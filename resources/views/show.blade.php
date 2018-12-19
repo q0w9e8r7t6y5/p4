@@ -20,11 +20,11 @@
         {{--<p>By {{ $book->author->getFullName() }} ({{ $book->published_year }})</p>--}}
         {{--<p>Added {{ $book->created_at->format('m/d/y') }}</p>--}}
 
-        {{--<ul class='userActions'>--}}
-            {{--<li><a href='{{ $book->purchase_url }}'><i class="fas fa-shopping-cart"></i> Purchase</a>--}}
-            {{--<li><a href='/books/{{ $book->id }}/edit'><i class="fas fa-pencil-alt"></i> Edit</a>--}}
-        {{--</ul>--}}
-    {{--</div>--}}
+        <ul class='userActions'>
+
+          <a href='{{ $user->id }}/edit'><i class="fas fa-pencil-alt"></i> Edit</a>
+        </ul>
+    </div>
 
 @include('modules.homebar')
 

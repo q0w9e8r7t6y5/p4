@@ -31,4 +31,42 @@ class EditController extends Controller
             'user' => $user
         ]);
     }
+
+    public function edit($id)
+    {
+        $user = Customer::find($id);
+
+        dump($user);
+
+        if (!$user) {
+            return redirect('/edit')->with([
+                'alert' => 'User not found.'
+            ]);
+        }
+
+        return view('edituser')->with([
+            'user' => $user
+        ]);
+    }
+
+    public function update(Request $request, $id)
+    {
+        $this->validate($request, [
+            'first_name' => 'required',
+            'last_name' => 'required',
+            'email' => 'required|email',
+            'phone' => 'required|digits:10',
+        ]);
+
+//        $user = Customer::find($id);
+//        $user->first_name = $request->input('first_name');
+//        $user->last_name = $request->input('last_name');
+//        $user->email = $request->input('email');
+//        $user->phone = $request->input('phone');
+//        $user->save();
+
+        return redirect('edit')->with([
+            'alert' => 'Your changes were saved.'
+        ]);
+    }
 }
