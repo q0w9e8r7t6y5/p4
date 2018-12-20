@@ -14,7 +14,7 @@
 
     <form method='GET 'action='store'>
 
-        USERNAME
+        <h5>What is your name?<h5>
         <select name="customer_id">
             @foreach($users as $user)
                 <option value="{{ $user->id }}">{{ $user->first_name. " " .$user->last_name }}</option>
@@ -23,6 +23,7 @@
 
 
         <fieldset class='type'>
+            <br>
             <h5>Type</h5>
             <input type='radio'
                    name='type'
@@ -200,6 +201,7 @@
 
     <?php endif; ?>
 
+    <br>
     @include('modules.homebar')
 
 @endsection
