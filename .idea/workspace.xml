@@ -35,7 +35,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="13" />
-          <entry key="Blade" value="2882" />
+          <entry key="Blade" value="2884" />
           <entry key="JSON" value="1" />
           <entry key="Markdown" value="31" />
           <entry key="PHP" value="4477" />
@@ -59,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/order.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -355,12 +355,12 @@
       <option name="presentableId" value="Default" />
       <updated>1545086273642</updated>
       <workItem from="1545086274751" duration="47793000" />
-      <workItem from="1545263018046" duration="6966000" />
+      <workItem from="1545263018046" duration="7085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54759000" />
+    <option name="totallyTimeSpent" value="54878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="23" width="1895" height="1000" extended-state="0" />
@@ -675,7 +675,7 @@
     <entry file="file://$PROJECT_DIR$/resources/views/order.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
         </state>
       </provider>
     </entry>
