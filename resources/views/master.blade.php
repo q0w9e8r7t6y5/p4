@@ -2,9 +2,6 @@
 
 <html lang='en'>
 
-@include('modules.padding')
-
-<div id="all">
 <head>
         <title>@yield('title')</title>
         <meta charset='utf-8'>
@@ -38,7 +35,6 @@
 
 {{-- JS specific to a given page/child view can be included via a stack --}}
 @stack('body')
-</div>
 
 </html>
 
