@@ -3,9 +3,9 @@
 
 @section('title')
     Order List
+    @include('modules.styling')
 @endsection
 
-@include('modules.styling')
 
 @section('content')
 
