@@ -1,19 +1,21 @@
 
 @extends('master')
 
+@include('modules.styling')
+
 @section('title')
     Order List
 @endsection
 
 @section('content')
 
-@include('modules.styling')
 
     <h4>Order List</h4>
     <h6><b>Listed below are all current orders in our database</b></h6>
 
         <table>
-            <tr><b>
+            <tr>
+            <b>
                 <th>Order Number</th>
                 <th>Customer ID</th>
                 <th>Type</th>
@@ -24,7 +26,8 @@
                 <th>Toppings</th>
                 <th>Special Note</th>
                 <th>Price</th>
-            </tr></b>
+            <b>
+            </tr>
             @foreach($orders as $order)
             <tr>
                 <td>{{ $order->order_number }}</td>
