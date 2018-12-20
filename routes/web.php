@@ -42,7 +42,7 @@ Route::get('/edit/{id}/delete', 'EditController@delete');
 
 # NOT WORKING
 # Process the deletion of a user
-Route::delete('/edit/{id}/delete/{id}', 'EditController@destroy');
+Route::delete('/edit/{id}', 'EditController@destroy');
 
 
 Route::get('/debug', function () {

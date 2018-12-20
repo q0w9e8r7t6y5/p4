@@ -9,7 +9,7 @@
 
     <p>Are you sure you want to delete User: <strong>{{ $user->first_name }} {{ $user->last_name }}'s User Profile</strong>?</p>
 
-    <form method='post' action='delete/{{ $user->id }}'>
+    <form method='post' action='/edit/{{ $user->id }}'>
         {{ method_field('DELETE') }}
         {{ csrf_field() }}
         <input type='submit' value='Yes, delete it!' class='btn btn-danger btn-small'>
