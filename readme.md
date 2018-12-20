@@ -5,14 +5,15 @@
 ## Database
 
 Primary tables:
+
   + `customers`
   + `orders`
 
 Pivot table:
+
   + `customer_order`
 
 ## CRUD
-*Describe what action I need take in order to see an example of all 4 CRUD operations in your app. I've filled this out with examples from the Foobooks app - delete this and replace with your own info. If one operation is performed multiple times (e.g. Read), you only need to provide 1 example.*
 
 __Create__
   + Visit <http://p4.sy-dwa15.me>
@@ -48,7 +49,8 @@ __Delete__
 5. PHP Random Function that was used: <http://php.net/manual/en/function.rand.php>
 
 ## Code style divergences
-*List any divergences from PSR-1/PSR-2 and course guidelines on code style*
+
++ No divergences made from the guides.
 
 ## Notes for instructor
 *Any notes for me to refer to while grading; if none, omit this section*
