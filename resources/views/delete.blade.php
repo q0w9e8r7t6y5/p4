@@ -16,7 +16,7 @@
     </form>
 
     <p class='cancel'>
-        <a href='/p4/public/edit/'>No, I changed my mind.</a>
+        <a href='edit'>No, I changed my mind.</a>
     </p>
 
 @endsection
