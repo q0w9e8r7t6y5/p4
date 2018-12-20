@@ -3,9 +3,9 @@
 <html lang='en'>
 
 <head>
-        <title>@yield('title')</title>
-        <meta charset='utf-8'>
-        <link rel='stylesheet' href='https://bootswatch.com/4/spacelab/bootstrap.min.css' type='text/css'>
+    <title>@yield('title')</title>
+    <meta charset='utf-8'>
+    <link rel='stylesheet' href='https://bootswatch.com/4/spacelab/bootstrap.min.css' type='text/css'>
 @include('modules.styling')
 
 </head>
@@ -25,10 +25,10 @@
 
 </body>
 
-<footer>
-    <br>
-    <a href='http://github.com/q0w9e8r7t6y5/p4'>View on Github</a> |&copy; 2018
-</footer>
+
+<br>
+<a href='http://github.com/q0w9e8r7t6y5/p4'>View on Github</a> |&copy; 2018
+
 
 {{-- JS global to every page can be loaded here; jQuery included just as an example --}}
 <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'

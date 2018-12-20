@@ -40,4 +40,6 @@
             @endforeach
         </table>
 
+@include('modules.homebar')
+
 @endsection

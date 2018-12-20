@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cfca6ad-dc25-4746-813e-72c15d8de7e8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/resources/views/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/orderlist.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/orderlist.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +36,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="13" />
-          <entry key="Blade" value="2790" />
+          <entry key="Blade" value="2792" />
           <entry key="JSON" value="1" />
           <entry key="Markdown" value="31" />
           <entry key="PHP" value="4477" />
@@ -46,20 +47,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/orderlist.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="714">
+              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-end-line="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/master.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -117,8 +118,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/OrderListController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/EditController.php" />
-        <option value="$PROJECT_DIR$/resources/views/master.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/orderlist.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/master.blade.php" />
       </list>
     </option>
   </component>
@@ -355,12 +356,12 @@
       <option name="presentableId" value="Default" />
       <updated>1545086273642</updated>
       <workItem from="1545086274751" duration="47793000" />
-      <workItem from="1545263018046" duration="6168000" />
+      <workItem from="1545263018046" duration="6276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53961000" />
+    <option name="totallyTimeSpent" value="54069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="23" width="1895" height="1000" extended-state="0" />
@@ -665,17 +666,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/master.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/orderlist.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="714">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-end-line="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/orderlist.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
