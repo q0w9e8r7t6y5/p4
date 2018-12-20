@@ -8,6 +8,7 @@
         <th>Email</th>
         <th>Phone</th>
         <th>Added</th>
+        <th>Action</th>
     </tr>
     @foreach($users as $user)
         <tr>
