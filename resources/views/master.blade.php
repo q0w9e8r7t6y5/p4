@@ -6,6 +6,8 @@
         <title>@yield('title')</title>
         <meta charset='utf-8'>
         <link rel='stylesheet' href='https://bootswatch.com/4/spacelab/bootstrap.min.css' type='text/css'>
+@include('modules.styling')
+
 </head>
 @stack('head')
 
