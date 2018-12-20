@@ -23,11 +23,10 @@
     @yield('content')
 </section>
 
-</body>
-
-
 <br>
 <a href='http://github.com/q0w9e8r7t6y5/p4'>View on Github</a> |&copy; 2018
+
+</body>
 
 
 {{-- JS global to every page can be loaded here; jQuery included just as an example --}}
