@@ -9,10 +9,10 @@
 @include('modules.validationerror')
 
 
-    <h4>Edit {{ $user->first_name }} {{ $user->last_name }}'s User Profile</h4>
+<h4>Edit {{ $user->first_name }} {{ $user->last_name }}'s User Profile</h4>
 
-    <form method='POST' action='/p4/public/edit/{{ $user->id }}'>
-        <div class='details'><b>* Required fields</b><br>
+<form method='POST' action='/p4/public/edit/{{ $user->id }}'>
+    <div class='details'><b>* Required fields</b><br>
 
         {{ method_field('put') }}
         {{ csrf_field() }}
@@ -30,8 +30,7 @@
         <input type='text' name='phone' id='phone' value='{{ old('phone', $user->phone) }}'><br>
 
         <input type='submit' value='Save changes' class='btn btn-primary'>
-        </div>
-    </form>
-
+    </div>
+</form>
 
 @endsection

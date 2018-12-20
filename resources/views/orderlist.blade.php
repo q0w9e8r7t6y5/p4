@@ -10,7 +10,6 @@
 
     <h4>Order List</h4>
     <h6><b>Listed below are all current orders in our database</b></h6>
-
         <table>
             <tr>
                 <th>Order Number</th>

@@ -6,7 +6,7 @@
     <title>@yield('title')</title>
     <meta charset='utf-8'>
     <link rel='stylesheet' href='https://bootswatch.com/4/spacelab/bootstrap.min.css' type='text/css'>
-@include('modules.styling')
+    @include('modules.styling')
 
 </head>
 @stack('head')
@@ -15,7 +15,7 @@
 <br>
 <header>
     <a href="{{ url('') }}">
-    <h2>Fast-Casual Mexican Restaurant</h2>
+        <h2>Fast-Casual Mexican Restaurant</h2>
     </a>
 </header>
 
@@ -25,7 +25,6 @@
 
 <br>
 <a href='http://github.com/q0w9e8r7t6y5/p4'>View on Github</a> |&copy; 2018
-
 
 
 {{-- JS global to every page can be loaded here; jQuery included just as an example --}}

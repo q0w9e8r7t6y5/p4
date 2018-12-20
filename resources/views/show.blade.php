@@ -19,24 +19,16 @@
             <th>Phone</th>
             <th>Added</th>
         </tr>
-            <tr>
-                <td>{{ $user->id }}</td>
-                <td>{{ $user->first_name }}</td>
-                <td>{{ $user->last_name }}</td>
-                <td>{{ $user->email }}</td>
-                <td>{{ $user->phone }}</td>
-                <td>{{ $user->created_at }}</td>
-                <td><b>
-                    <a href='{{ $user->id }}/edit'>Edit</a></b>
-                </td>
-                <td><b>
-                    <a href='{{ $user->id }}/delete'>Delete</a></b>
-                </td>
-
-            </tr>
-
+        <tr>
+            <td>{{ $user->id }}</td>
+            <td>{{ $user->first_name }}</td>
+            <td>{{ $user->last_name }}</td>
+            <td>{{ $user->email }}</td>
+            <td>{{ $user->phone }}</td>
+            <td>{{ $user->created_at }}</td>
+            <td><b><a href='{{ $user->id }}/edit'>Edit</a></b></td>
+            <td><b><a href='{{ $user->id }}/delete'>Delete</a></b></td>
+        </tr>
     </table>
-
 </div>
-
 @endsection

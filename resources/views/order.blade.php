@@ -198,7 +198,7 @@
                 </td>
             </tr>
         </table>
-        </div>
+    </div>
 
     <?php endif; ?>
 

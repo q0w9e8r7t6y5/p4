@@ -5,6 +5,7 @@
 @endsection
 
 @section('content')
+
     <br>
     <h3>User Registration</h3>
 
@@ -14,7 +15,6 @@
     <h5>Customer Information</h5><b>* Required fields</b><br>
     <form method='get' action='form'>
         <fieldset id="$request">
-
             <label for='email'>* Email:</label>
             <input type='text' name='email' id='email' value='{{ old('email')}}' ><br>
             <label for='firstname'>* First Name:</label>
