@@ -13,7 +13,6 @@
 
         <table>
             <tr>
-            <b>
                 <th>Order Number</th>
                 <th>Customer ID</th>
                 <th>Type</th>
@@ -24,7 +23,6 @@
                 <th>Toppings</th>
                 <th>Special Note</th>
                 <th>Price</th>
-            <b>
             </tr>
             @foreach($orders as $order)
             <tr>
