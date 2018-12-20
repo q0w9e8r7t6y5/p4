@@ -179,13 +179,7 @@
             </tr>
             <tr>
                 <td>Topping:</td>
-                <td> <?php if (!$toppings) {
-                        echo "None";
-                    } else {
-                        echo ucwords(join(', ', $toppings));
-                    }
-                    ?>
-                </td>
+                <td> {{(!$toppings) ? 'None' : ucwords(join(', ', $toppings)) }}</td>
             </tr>
             <tr>
                 <td>Add'l Comments:</td>
