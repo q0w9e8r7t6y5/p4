@@ -1,11 +1,11 @@
 
 @extends('master')
 
-@include('modules.styling')
-
 @section('title')
     Order List
 @endsection
+
+@include('modules.styling')
 
 @section('content')
 
