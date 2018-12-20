@@ -14,8 +14,6 @@ class OrderListController extends Controller
 
         $orders = Order::orderby('created_at', 'desc')->get();
 
-        dump($orders->toArray());
-
         return view('orderlist')->with([
             'orders' => $orders
         ]);

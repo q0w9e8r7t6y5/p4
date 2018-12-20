@@ -66,32 +66,16 @@ class EditController extends Controller
     {
         $user = Customer::find($id);
 
-        dump($user);
-
         return view('delete')->with([
             'user' => $user,
         ]);
     }
-    /*
-    * Actually deletes the user
-    */
-
-//    public function destroy($id)
-//    {
-//        $user = Customer::find($id);
-//
-////        dump($user);
-//        $user->orders()->detach();
-//        $user->delete();
-//        return redirect('edit');
-//    }
 
     public function destroy($id)
     {
         $user = Customer::find($id);
 
         if($user!=null){
-//        dump($user);
             $user->orders()->detach();
 
             //delete orders
