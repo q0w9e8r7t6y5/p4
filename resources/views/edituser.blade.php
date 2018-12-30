@@ -11,7 +11,7 @@
 
 <h4>Edit {{ $user->first_name }} {{ $user->last_name }}'s User Profile</h4>
 
-<form method='POST' action='/p4/public/edit/{{ $user->id }}'>
+<form method='POST' action='/edit/{{ $user->id }}'>
     <div class='details'><b>* Required fields</b><br>
 
         {{ method_field('put') }}
